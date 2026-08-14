@@ -1,0 +1,38 @@
+# Compilados y salidas de Java
+bin/
+out/
+dist/
+target/
+build/
+*.class
+
+# Archivos de IDEs
+.idea/
+.vscode/
+*.iml
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Logs y temporales
+*.log
+*.tmp
+*.bak
+
+# Archivos de dependencias locales
+lib/
+
+# Opcional: si usas Maven/Gradle
+.mvn/
+.gradle/
+.gradle/
+# No ignores gradle-wrapper.jar si quieres versionar el wrapper
+# gradle/wrapper/gradle-wrapper.jar
+
+# Archivos de cobertura y reportes
+coverage/
+*.exec
+
+# Archivos de configuración locales
+*.local
