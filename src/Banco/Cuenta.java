@@ -19,7 +19,10 @@ public class Cuenta {
      return saldo;
  }
  public void depositar (double monto) {
+    if(monto>0){
      saldo += monto;
+     System.out.println("Deposito de: $" + monto + "realizado");
+    }
  }
     public void mostrarInformacion() {
         System.out.println("Titular: " + titular);
